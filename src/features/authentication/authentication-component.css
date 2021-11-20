@@ -1,0 +1,57 @@
+.login-signup {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+}
+
+.app-background {
+    flex: 2;
+    height: 100%;
+}
+
+.form-container {
+    flex: 1;
+}
+
+.animation-parent {
+    position: relative;
+    top: 200px;
+    box-shadow: -2px 1px 10px grey;
+    margin-right: 20px;
+}
+
+
+.login-form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.login-form > * {
+    margin: 20px 15px;
+}
+
+.username, .password {
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.password {
+
+}
+
+.login-btn {
+    margin: 20px 60px;
+    height: 40px;
+    background-color: #64b5f6;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #1e88e5 !important;
+}

@@ -1,6 +1,6 @@
 const initialState = {todos: { ids: [], entities: {}}, status: 'idle'};
 
-const todoReducer = (state = initialState, {type, payload}) => {
+export const todoReducer = (state = initialState, {type, payload}) => {
     switch (type) {
         case 'todos/addTodo': return addTodo(state, payload)
         case 'todos/removeTodo': return removeTodo(state, payload)
@@ -14,46 +14,46 @@ const todoReducer = (state = initialState, {type, payload}) => {
     }
 }
 
-addTodo = (state, payload) => {
+const addTodo = (state, payload) => {
     return state;
 }
 
-removeTodo = (state, payload) => {
-    return state;
-    
-}
-
-colorSelected = (state, payload) => {
+const removeTodo = (state, payload) => {
     return state;
     
 }
 
-statusChanged = (state, payload) => {
+const colorSelected = (state, payload) => {
     return state;
     
 }
 
-updateTodo = (state, payload) => {
+const statusChanged = (state, payload) => {
     return state;
     
 }
 
-loading = (state, payload) => {
+const updateTodo = (state, payload) => {
     return state;
     
 }
 
-loadComplete = (state, payload) => {
+const loading = (state, payload) => {
     return state;
     
 }
 
-markAllIncomplete = (state, payload) => {
+const loadComplete = (state, payload) => {
     return state;
     
 }
 
-markAllComplete = (state, payload) => {
+const markAllIncomplete = (state, payload) => {
+    return state;
+    
+}
+
+const markAllComplete = (state, payload) => {
     return state;
     
 }

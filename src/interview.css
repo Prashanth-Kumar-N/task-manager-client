@@ -1,0 +1,13 @@
+.container-section {
+    display: flex;
+    flex-flow: row;
+}
+
+.list-ctr {
+    flex: 1;
+    border: 1px solid;
+}
+
+.list-ctr li {
+    list-style-type: none;
+}

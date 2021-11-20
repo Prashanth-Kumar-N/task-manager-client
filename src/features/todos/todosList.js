@@ -1,6 +1,6 @@
 export const TodosList = () => {
     return (
-        <section class='todos-list'>
+        <section className='todos-list'>
             "Todos List"
         </section>
     )
